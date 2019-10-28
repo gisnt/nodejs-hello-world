@@ -1,5 +1,23 @@
 {
-  "name" : "hello-world-nodejs",
-  "version" : "1.0.0",
-  "scripts": {"start": "my_web_server.js"}
+  "name": "hello-world-nodejs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "my_web_server.js"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "main": "my_web_server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gisnt/nodejs-hello-world.git"
+  },
+  "author": "Forest",
+  "license": "dqzhang@tom.com",
+  "bugs": {
+    "url": "https://github.com/gisnt/nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/gisnt/nodejs-hello-world#readme",
+  "description": "Nodejs hello-world example script"
 }
